@@ -1,0 +1,14 @@
+.dashboard {
+    width: 100%;
+}
+
+.logos {
+    width: 80%;
+    padding-left: 80px;
+}
+
+.data {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
