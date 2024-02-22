@@ -8,9 +8,13 @@ function Data() {
         <b>
           {" "}
           <img src="images/Cookies.png"></img>
-          <p className="data">Cookieless</p> 
+          <p className="data">Cookieless</p>
         </b>
-        <p> Teads offers </p>
+        <p>
+          {" "}
+          Teads offers the most advanced Cookieless targeting in the industry
+          allowing you to have 60% more reach as compated to{" "}
+        </p>
       </div>
       <div className="card">
         <b>
@@ -24,6 +28,11 @@ function Data() {
           <img src="images/Page.png"></img>
           <p className="data">Contextual</p>{" "}
         </b>
+        <p>
+          {" "}
+          Understand the context and sentiment around the content being
+          consumed.{" "}
+        </p>
       </div>
       <div className="card">
         <b>
@@ -31,6 +40,11 @@ function Data() {
           <img src="images/Commerce.png"></img>
           <p className="data">Commerce</p>{" "}
         </b>
+        <p>
+          {" "}
+          We provide purchase data from top retailers allowing for targeting and
+          online and offline measurement solutions.{" "}
+        </p>
       </div>
     </div>
   );
