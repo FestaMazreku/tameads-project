@@ -1,5 +1,6 @@
 import Navbar from "./Navigationbar";
 import Data from "./DataDriven";
+import RecommendationsView from "./RecommendationsView";
 import React from "react";
 import "../stylesheets/Home.css";
 
@@ -17,6 +18,7 @@ function Home() {
       <Data />
       <br />
       <br />
+      <RecommendationsView />
     </div>
   );
 }
