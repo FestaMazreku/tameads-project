@@ -1,6 +1,7 @@
 import Navbar from "./Navigationbar";
 import Data from "./DataDriven";
 import RecommendationsView from "./RecommendationsView";
+import Footer from "./Footer";
 import React from "react";
 import "../stylesheets/Home.css";
 
@@ -19,6 +20,9 @@ function Home() {
       <br />
       <br />
       <RecommendationsView />
+
+      <br />
+      <Footer />
     </div>
   );
 }

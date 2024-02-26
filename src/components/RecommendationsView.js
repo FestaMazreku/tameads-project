@@ -14,18 +14,31 @@ function RecommendationsView() {
               </p>
             </b>
             <br />
-            <p>
+            <p className="text2">
               We've perfected the art of native advertising, empowering
-              publishers and advertisers to grow their brand presence and
+              publishers and <br /> advertisers to grow their brand presence and
               revenues.
             </p>
+            <br />
+
+            <div className="border">
+              <p className="number">344B</p>
+              <p className="text3">Monthly Recommendations</p>
+            </div>
+
+            <div className="border">
+              <p className="number">55+</p>
+              <p className="text3">Countries in Network</p>
+            </div>
+
+            <p className="learnmore">
+              Learn more
+              <span className="icon">➔</span>
+            </p>
           </div>
+
           <div className="image-container">
-            <img
-              src="/path/to/your/image.jpg"
-              alt="TameAds Image"
-              className="image2"
-            />
+            <img src="images/phone.png" alt="Phone" className="image2" />
           </div>
         </div>
       </div>
