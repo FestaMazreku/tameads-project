@@ -3,61 +3,79 @@ import "../stylesheets/Navigationbar.css";
 
 const Navbar = () => {
   const [activeNavItem, setActiveNavItem] = useState("home");
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleNavItemClick = (item) => {
     setActiveNavItem(item);
+    setMobileMenuOpen(false);
+  };
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
   };
 
   return (
     <nav>
-      <ul>
+      <div className="mobile-menu-toggle" onClick={toggleMobileMenu}>
+        ☰
+      </div>
+      <ul className={`nav-links ${mobileMenuOpen ? "active" : ""}`}>
         <li>
           <img src="/images/TameAds.png" alt="TameAds Logo" className="logo" />
         </li>
         <li
-          className={activeNavItem === "advertisers" ? "active" : ""}
+          className={`nav-item ${
+            activeNavItem === "advertisers" ? "active" : ""
+          }`}
           onClick={() => handleNavItemClick("advertisers")}
         >
           Advertisers
         </li>
         <li
-          className={activeNavItem === "mediaowners" ? "active" : ""}
+          className={`nav-item ${
+            activeNavItem === "mediaowners" ? "active" : ""
+          }`}
           onClick={() => handleNavItemClick("mediaowners")}
         >
           Media Owners
         </li>
         <li
-          className={activeNavItem === "aboutus" ? "active" : ""}
+          className={`nav-item ${activeNavItem === "aboutus" ? "active" : ""}`}
           onClick={() => handleNavItemClick("aboutus")}
         >
           About Us
         </li>
         <li
-          className={activeNavItem === "resources" ? "active" : ""}
+          className={`nav-item ${
+            activeNavItem === "resources" ? "active" : ""
+          }`}
           onClick={() => handleNavItemClick("resources")}
         >
           Resources
         </li>
         <li
-          className={activeNavItem === "adformats" ? "active" : ""}
+          className={`nav-item ${
+            activeNavItem === "adformats" ? "active" : ""
+          }`}
           onClick={() => handleNavItemClick("adformats")}
         >
           Ad Formats
         </li>
         <li
-          className={activeNavItem === "contact" ? "active" : ""}
+          className={`nav-item ${activeNavItem === "contact" ? "active" : ""}`}
           onClick={() => handleNavItemClick("contact")}
         >
+          <div></div>
           Contact
         </li>
         <li
-          className={activeNavItem === "login" ? "active" : ""}
+          className={`nav-item ${activeNavItem === "login" ? "active" : ""}`}
           onClick={() => handleNavItemClick("login")}
         >
           Log in
         </li>
         <li
-          className={activeNavItem === "signup" ? "active" : ""}
+          className={`nav-item ${activeNavItem === "signup" ? "active" : ""}`}
           onClick={() => handleNavItemClick("signup")}
         >
           Sign up

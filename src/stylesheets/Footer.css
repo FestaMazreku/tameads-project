@@ -1,9 +1,30 @@
 .footer {
-    background-color: rgb(36, 36, 36);
-    padding: 20px;
-    text-align: center;
+  background-color: rgb(20, 20, 20);
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-    bottom: 0;
-    width: 100%;
-    color: white;
-  }
+.text-left {
+  text-align: left;
+  flex-grow: 1;
+}
+
+.text {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+}
+
+.download-app {
+  font-size: 15px;
+}
+
+.tameads {
+  font-size: 13px;
+  color: rgb(175, 173, 173);
+  text-align: left;
+}

@@ -20,7 +20,6 @@ function Home() {
       <br />
       <br />
       <RecommendationsView />
-
       <br />
       <Footer />
     </div>

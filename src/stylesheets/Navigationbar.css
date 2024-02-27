@@ -1,4 +1,15 @@
-nav ul {
+nav {
+  display: flex;
+    align-items: center;
+}
+
+.mobile-menu-toggle {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.nav-links {
   list-style: none;
   display: flex;
   background-color: #ffffff;
@@ -7,31 +18,32 @@ nav ul {
   text-align: center;
 }
 
-nav li {
-  margin-right: 10px;
-  cursor: pointer;
-  color: black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.nav-item {
+  font-size: 14px; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-nav li.active {
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.logo {
-  width: 130px;
-  padding-left: 30px;
+.activeNavItem {
+  font-size: 17px;
 }
 
 @media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
+  .mobile-menu-toggle {
+    display: block;
   }
 
-  nav li {
-    margin-right: 0;
-    margin-bottom: 10px;
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
   }
 }
