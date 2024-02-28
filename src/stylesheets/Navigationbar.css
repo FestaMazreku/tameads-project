@@ -19,12 +19,19 @@ nav {
 }
 
 .nav-item {
-  font-size: 14px; 
+  font-size: 12px; 
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 10px;
 }
 
 .activeNavItem {
   font-size: 17px;
+}
+
+.logo {
+  width: 130px;
+  padding: 20px;
+  margin-top: -20px;
 }
 
 @media (max-width: 768px) {
