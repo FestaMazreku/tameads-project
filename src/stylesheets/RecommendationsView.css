@@ -1,6 +1,7 @@
 .view {
   background-color: white;
   padding: 20px;
+  align-items: center;
 }
 
 .container {
@@ -14,9 +15,12 @@
   justify-content: space-between;
 }
 
-.text {
-  font-size: 30px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.right {
+  align-items: right;
+}
+
+.left {
+align-items: left;
 }
 
 .text2 {
@@ -60,6 +64,7 @@
 
 .image-container {
   flex: 1;
+  padding-top: -20px;
 }
 
 .image2 {

@@ -8,10 +8,10 @@ function RecommendationsView() {
         <div className="content">
           <div className="text-container">
             <b>
-              <p className="text">
-                TameAds is the technology company powering the discovery feeds
-                on your favorite media.{" "}
-              </p>
+              <h2>
+                TameAds is the technology company <br /> powering the discovery
+                feeds on your <br /> favorite media.{" "}
+              </h2>
             </b>
             <br />
             <p className="text2">
@@ -22,13 +22,8 @@ function RecommendationsView() {
             <br />
 
             <div className="border">
-              <p className="number">344B</p>
+              <p className="number">344B</p> <br />
               <p className="text3">Monthly Recommendations</p>
-            </div>
-
-            <div className="border">
-              <p className="number">55+</p>
-              <p className="text3">Countries in Network</p>
             </div>
 
             <p className="learnmore">

@@ -1,9 +1,27 @@
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "../stylesheets/DataDriven.css";
 
 function Data() {
+  const settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
+  };
+
   return (
-    <div className="data">
+    <Slider {...settings}>
       <div className="card">
         <b>
           <img src="images/Cookies.png" alt="Cookies" className="image"></img>
@@ -39,7 +57,7 @@ function Data() {
           online and offline measurement solutions.
         </p>
       </div>
-    </div>
+    </Slider>
   );
 }
 
