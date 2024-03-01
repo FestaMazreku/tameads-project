@@ -12,9 +12,21 @@ function Data() {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 992,
         settings: {
           slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
         },
       },
     ],
@@ -24,7 +36,7 @@ function Data() {
     <Slider {...settings}>
       <div className="card">
         <b>
-          <img src="images/Cookies.png" alt="Cookies" className="image"></img>
+          <img src="images/Cookies.png" alt="Cookies" className="image" />
           <p className="data">Cookieless</p>
         </b>
         <p>
@@ -34,12 +46,12 @@ function Data() {
       </div>
       <div className="card2">
         <b>
-          <img src="images/CrossScreen.png" alt="CrossScreen"></img>
+          <img src="images/CrossScreen.png" alt="CrossScreen" />
         </b>
       </div>
       <div className="card">
         <b>
-          <img src="images/Page.png" alt="Page" className="image"></img>
+          <img src="images/Page.png" alt="Page" className="image" />
           <p className="data">Contextual</p>{" "}
         </b>
         <p>
@@ -49,7 +61,7 @@ function Data() {
       </div>
       <div className="card">
         <b>
-          <img src="images/Commerce.png" alt="Commerce" className="image"></img>
+          <img src="images/Commerce.png" alt="Commerce" className="image" />
           <p className="data">Commerce</p>{" "}
         </b>
         <p>
