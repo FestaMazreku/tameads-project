@@ -27,23 +27,17 @@
   color: rgb(70, 69, 69);
 }
 
-.left {
-  font-size: 25px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(32, 47, 255);
-  font-weight: bold;
-  border: 2px solid rgb(238, 222, 5);
-  border-style: dashed;
-  border-radius: 8px;
-  height: 70px;
-  width: 190px;
-  padding: 30px;
-  align-items: left;
+.align {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  flex-direction: row; 
 }
 
+.left,
 .right {
   font-size: 25px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(32, 47, 255);
   font-weight: bold;
   border: 2px solid rgb(238, 222, 5);
@@ -52,7 +46,7 @@
   height: 70px;
   width: 190px;
   padding: 30px;
-  align-items: right;
+  align-items: center;
 }
 
 .number {
@@ -89,9 +83,19 @@
 }
 
 .icon {
-  margin-left: 8px; 
-  font-size: 20px; 
-  border: 1px solid blue;
-  border-radius: 50%;
-  padding: 10px;
+  margin-left: 7px; 
+}
+
+@media (max-width: 768px) {
+  .left,
+  .right {
+    width: 100%; 
+  }
+
+  .image2 {
+    margin-right: 0; 
+    width: 100%;
+    max-width: auto; 
+    height: auto; 
+  }
 }

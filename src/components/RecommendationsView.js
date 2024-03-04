@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheets/RecommendationsView.css";
+import { RiLoginCircleLine } from "react-icons/ri";
 
 function RecommendationsView() {
   return (
@@ -21,20 +22,24 @@ function RecommendationsView() {
             </p>
             <br />
 
-            <div className="left">
-              <p className="number">344B</p>
-              <p className="text3">Monthly Recommendations</p>
-            </div>
+            <div className="align">
+              <div className="left">
+                <p className="number">344B</p>
+                <p className="text3">Monthly Recommendations</p>
+              </div>
 
-            <br />
-            <div className="right">
-              <p className="number">55+</p>
-              <p className="text3">Countries in the Network</p>
+              <div className="right">
+                <p className="number">55+</p>
+                <p className="text3">Countries in the Network</p>
+              </div>
             </div>
 
             <p className="learnmore">
               Learn more
-              <span className="icon">➔</span>
+              <span>
+                {" "}
+                <RiLoginCircleLine className="icon" size={30} />{" "}
+              </span>
             </p>
           </div>
 

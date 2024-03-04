@@ -1,6 +1,8 @@
 import Navbar from "./Navigationbar";
 import Data from "./DataDriven";
 import RecommendationsView from "./RecommendationsView";
+import Vision from "./Vision";
+import Solutions from "./Solutions";
 import Footer from "./Footer";
 import React from "react";
 import "../stylesheets/Home.css";
@@ -21,9 +23,10 @@ function Home() {
       <br />
       <RecommendationsView />
       <br />
+      <Vision />
+      <Solutions />
       <Footer />
     </div>
   );
 }
-
 export default Home;
