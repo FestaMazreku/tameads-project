@@ -11,7 +11,7 @@ function Footer() {
           alt="TameAds Logo"
           className="logo"
         />
-        <p className="text"> Join the largest ad network in the world. </p>
+        <p className="text-footer"> Join the largest ad network in the world. </p>
         <br />
         <p className="tameads"> &copy; 2023 - TameAds - All Rights Reserved.</p>
       </div>
