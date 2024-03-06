@@ -1,9 +1,11 @@
 import React from "react";
+import "../stylesheets/Vision.css";
+
 
 function Vision() {
   return (
-    <div>
-      <img src="images/Vision.png" alt="CrossScreen" />
+    <div className="vision-container">
+      <img src="images/Vision.png" alt="CrossScreen" className="responsive-image" />
     </div>
   );
 }
