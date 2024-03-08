@@ -3,6 +3,7 @@ import Data from "./DataDriven";
 import RecommendationsView from "./RecommendationsView";
 import Vision from "./Vision";
 import Solutions from "./Solutions";
+import Formats from "./Formats";
 import Footer from "./Footer";
 import React from "react";
 import "../stylesheets/Home.css";
@@ -25,6 +26,7 @@ function Home() {
       <br />
       <Vision />
       <Solutions />
+      <Formats />
       <Footer />
     </div>
   );

@@ -65,9 +65,11 @@ const Navbar = () => {
           className={`nav-item ${activeNavItem === "contact" ? "active" : ""}`}
           onClick={() => handleNavItemClick("contact")}
         >
-          <div></div>
-          Contact
+          <div class="navigation-right">
+            Contact
+            </div>
         </li>
+     
         <li
           className={`nav-item ${activeNavItem === "login" ? "active" : ""}`}
           onClick={() => handleNavItemClick("login")}

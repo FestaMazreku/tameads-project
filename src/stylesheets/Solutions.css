@@ -9,3 +9,17 @@
     width: 40%;
     padding: 20px;
 }
+
+.audience {
+    width: 55%;
+    padding-left: 20px;
+}
+
+.learnmore2 {
+    color: rgb(45, 159, 204);
+    font-weight: 34px;
+}
+
+.icon {
+    margin-left: 7px; 
+}
