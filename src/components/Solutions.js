@@ -9,6 +9,7 @@ function Solutions() {
         Delivering solutions <br /> across the marketing funnel{" "}
       </p>
       <img src="images/laptop.png" alt="laptop" className="laptop" />
+
       <div className="view">
         <div className="container">
           <div className="content">
@@ -56,7 +57,7 @@ function Solutions() {
 
             <div className="text-container">
               <b>
-                <h2>Deep audience insights</h2>
+                <h2> Deep audience insights </h2>
               </b>
               <p className="text2">
                 Our platform offers deep insights that enable advertisers to{" "}
@@ -77,7 +78,6 @@ function Solutions() {
           </div>
         </div>
       </div>
-
     </>
   );
 }

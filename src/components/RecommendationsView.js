@@ -23,12 +23,12 @@ function RecommendationsView() {
             <br />
 
             <div className="align">
-              <div className="left">
+              <div className="number-container">
                 <p className="number">344B</p>
                 <p className="text3">Monthly Recommendations</p>
               </div>
 
-              <div className="right">
+              <div className="number-container">
                 <p className="number">55+</p>
                 <p className="text3">Countries in the Network</p>
               </div>

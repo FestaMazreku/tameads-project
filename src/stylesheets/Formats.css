@@ -13,14 +13,14 @@
 
 .advertisers {
     width: 100%;
-    padding: -30px;
+    margin-bottom: -5px;
 }
 
 .publishers {
     color: rgb(50, 50, 230);
 }
 
-.joinnow {
+.join-now {
     color: rgb(50, 50, 230);
 }
 
@@ -35,5 +35,19 @@
 .publishers-container {
     display: flex;
     justify-content: flex-end; 
-    margin-top: 20px; 
+    margin-top: 60px; 
+}
+
+.text-container {
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.news {
+    margin-left: 150px;
+}
+
+.text-news {
+    font-size: 14px;
+    margin-left: 150px;
 }

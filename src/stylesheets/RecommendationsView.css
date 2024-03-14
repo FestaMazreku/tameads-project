@@ -1,8 +1,7 @@
 .view {
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   align-items: center;
-  margin-left: 50px;
 }
 
 .container {
@@ -29,13 +28,13 @@
 
 .align {
   display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
-  flex-direction: row; 
+  flex-direction: row;
 }
 
 .left,
-.right {
+.right,
+.number-container {
   font-size: 25px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(32, 47, 255);
@@ -69,7 +68,7 @@
 }
 
 .image2 {
-  width: 100%;
+  width: 120%;
   height: auto;
   margin-top: -20px;
   margin-right: 100px;
