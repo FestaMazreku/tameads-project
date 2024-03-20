@@ -15,6 +15,7 @@ function RecommendationsView() {
               </h2>
             </b>
             <br />
+            
             <p className="text2">
               We've perfected the art of native advertising, empowering
               publishers and <br /> advertisers to grow their brand presence and

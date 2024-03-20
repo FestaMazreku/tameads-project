@@ -19,6 +19,7 @@
   font-size: 15px;
 }
 
+
 .download-app {
   font-size: 15px;
 }
@@ -31,4 +32,12 @@
 
 .hr {
   color: rgb(179, 179, 179);
+}
+
+@media (max-width: 768px) {
+ .all-footer-links {
+    flex-wrap: wrap;
+ 
+    justify-content: center;
+}
 }

@@ -1,5 +1,3 @@
-// Update the Formats.js file
-
 import React from "react";
 import "../stylesheets/Formats.css";
 import { RiLoginCircleLine } from "react-icons/ri";
