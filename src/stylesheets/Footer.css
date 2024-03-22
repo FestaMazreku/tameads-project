@@ -1,43 +1,69 @@
 .footer {
   background-color: rgb(20, 20, 20);
-  padding: 20px;
-  text-align: center;
   width: 100%;
   color: white;
+}
+
+.socialmedia {
+  width: 90px;
+  margin: right;
+}
+
+.tameads_footer
+
+.section-padding {
+  padding: 4rem 4rem;
+}
+
+.tameads_footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
-
-.text-left {
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
   text-align: left;
-  flex-grow: 1;
+  margin-bottom: 2rem;
 }
 
-.text-footer {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 15px;
+.footer-sublinks {
+  width: 150px;
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: white;
 }
 
-
-.download-app {
-  font-size: 15px;
+a {
+  color: white;
 }
 
-.tameads {
-  font-size: 13px;
-  color: rgb(175, 173, 173);
-  text-align: left;
+.footer-sublinks h4{
+  line-height: 17px;
+  margin-bottom: 0.9rem;
 }
 
-.hr {
-  color: rgb(179, 179, 179);
+.footer-sublinks p {
+  font-size: 12px;
 }
 
-@media (max-width: 768px) {
- .all-footer-links {
-    flex-wrap: wrap;
- 
-    justify-content: center;
+.footer-links-div p {
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0.5rem 0;
+  cursor: pointer;
 }
+
+.footer-below {
+  display: flex;
+  flex-direction:  row;
+  justify-content: space-between;
+  margin-top: 0.2rem;
 }
+

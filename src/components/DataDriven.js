@@ -65,8 +65,8 @@ function Data() {
           <p className="data">Commerce</p>{" "}
         </b>
         <p>
-          We provide purchase data from top retailers allowing for targeting and
-          online and offline measurement solutions.
+          We provide purchase data from top retail ers allowing for targeting
+          and online and offline measurement solutions.
         </p>
       </div>
     </Slider>

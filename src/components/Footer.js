@@ -4,48 +4,128 @@ import "../stylesheets/Footer.css";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="text-left">
-        <br />
-        <img
-          src="/images/TameAdslogo.png"
-          alt="TameAds Logo"
-          className="logo"
-        />
-        <p className="text-footer">
-          {" "}
-          Join the largest ad network in the world.{" "}
-        </p>
-        <br />
-        <hr className="hr" />
+      <div className="tameads_footer section-padding">
+        <div className="footer-links">
+          <img
+            src="/images/TameAdslogo.png"
+            alt="TameAds Logo"
+            className="logo"
+          />
+          <p className="text-footer">
+            {" "}
+            Join the largest ad network in the world.{" "}
+          </p>
+          <br />
+          <div className="footer-links-div">
+            <h4> TameAds </h4>
 
-        <div className="all-footer-links">
-          <div className="footer-list">
             <p> TameAds </p>
+
+            <p> TameAds </p>
+
+            <p> TameAds </p>
+
+            <p> TameAds </p>
+
+            <p> TameAds </p>
+
+            <p> TameAds </p>
+          </div>
+
+          <div className="footer-sublinks">
+            <h4> Sublinks </h4>
+
             <p> Advertisers </p>
+
             <p> Ad Formats </p>
+
             <p> Agencies </p>
+
             <p> Download </p>
+
+            <p> Affiliate </p>
+
             <p> Affiliate </p>
           </div>
 
-          <div className="footer-list">
-            <p> Additional Text 1 </p>
-            <p> Additional Text 2 </p>
-            <p> Additional Text 3 </p>
+          <div className="footer-sublinks">
+            <h4> Sublinks </h4>
+
+            <p> Advertisers </p>
+
+            <p> Affiliate </p>
+
+            <p> Affiliate </p>
+
+            <p> Affiliate </p>
+
+            <p> Affiliate </p>
+
+            <p> Affiliate </p>
           </div>
 
-          <hr />
-          <div className="footer-list">
-            <p> Subscribe newsletter </p>
+          <div className="footer-sublinks">
+            <h4> Sublinks </h4>
+
+            <p> Advertisers </p>
+
+            <p> Ad Formats </p>
+
+            <p> Agencies </p>
+
+            <p> Download </p>
+
+            <p> Affiliate </p>
+
+            <p> Affiliate </p>
           </div>
 
-          <hr />
+          <div className="footer-sublinks">
+            <h4> Sublinks </h4>
 
-          <div className="footer-row">
-            <p className="tameads">
-              {" "}
-              &copy; 2023 - TameAds - All Rights Reserved.
-            </p>
+            <p> Advertisers </p>
+
+            <p> Ad Formats </p>
+
+            <p> Agencies </p>
+
+            <p> Download </p>
+
+            <p> Affiliate </p>
+
+            <p> Affiliate </p>
+          </div>
+
+          <div className="footer-sublinks">
+            <h4> Sublinks </h4>
+
+            <p> Advertisers </p>
+
+            <p> Ad Formats </p>
+
+            <p> Agencies </p>
+
+            <p> Download </p>
+
+            <p> Affiliate </p>
+
+            <p> Affiliate </p>
+          </div>
+
+          <div className="footer-sublinks">
+            <div className="social-media">
+              <img
+                src="images/socialmedia.png"
+                alt="Socialmedia"
+                className="socialmedia"
+              />
+            </div>
+          </div>
+
+          <div className="footer-below">
+            <div className="footer-copyright">
+              <p> &copy; 2023 - TameAds - All Rights Reserved.</p>
+            </div>
           </div>
         </div>
       </div>
