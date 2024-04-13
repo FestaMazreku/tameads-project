@@ -9,7 +9,6 @@ function Solutions() {
         Delivering solutions <br /> across the marketing funnel{" "}
       </p>
       <img src="images/laptop.png" alt="laptop" className="laptop" />
-      <img src="images/table.png" alt="table" className="table" />
 
       <div className="view">
         <div className="container">

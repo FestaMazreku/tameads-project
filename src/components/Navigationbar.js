@@ -1,88 +1,50 @@
-import React, { useState } from "react";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Button from "react-bootstrap/Button";
+import { faHeadphones } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../stylesheets/Navigationbar.css";
 
-const Navbar = () => {
-  const [activeNavItem, setActiveNavItem] = useState("home");
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  const handleNavItemClick = (item) => {
-    setActiveNavItem(item);
-    setMobileMenuOpen(false);
-  };
-
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-  };
-
+function Navigationbar() {
   return (
-    <nav>
-      <div className="mobile-menu-toggle" onClick={toggleMobileMenu}>
-        ☰
-      </div>
-      <ul className={`nav-links ${mobileMenuOpen ? "active" : ""}`}>
-        <li>
-          <img src="/images/TameAds.png" alt="TameAds Logo" className="logo" />
-        </li>
-        <li
-          className={`nav-item ${
-            activeNavItem === "advertisers" ? "active" : ""
-          }`}
-          onClick={() => handleNavItemClick("advertisers")}
-        >
-          Advertisers
-        </li>
-        <li
-          className={`nav-item ${
-            activeNavItem === "mediaowners" ? "active" : ""
-          }`}
-          onClick={() => handleNavItemClick("mediaowners")}
-        >
-          Media Owners
-        </li>
-        <li
-          className={`nav-item ${activeNavItem === "aboutus" ? "active" : ""}`}
-          onClick={() => handleNavItemClick("aboutus")}
-        >
-          About Us
-        </li>
-        <li
-          className={`nav-item ${
-            activeNavItem === "resources" ? "active" : ""
-          }`}
-          onClick={() => handleNavItemClick("resources")}
-        >
-          Resources
-        </li>
-        <li
-          className={`nav-item ${
-            activeNavItem === "adformats" ? "active" : ""
-          }`}
-          onClick={() => handleNavItemClick("adformats")}
-        >
-          Ad Formats
-        </li>
-        <li
-          className={`nav-item ${activeNavItem === "contact" ? "active" : ""}`}
-          onClick={() => handleNavItemClick("contact")}
-        >
-          <div class="navigation-right">Contact</div>
-        </li>
+    <Navbar expand="lg" className="navbar">
+      <Container>
+        <img src="/images/TameAds.png" alt="TameAdsLogo" className="logo" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="links">
+            <Nav.Link href="advertisers">Advertisers</Nav.Link>
+            <Nav.Link href="mediaowners">Media Owners</Nav.Link>
+            <Nav.Link href="aboutus">About Us</Nav.Link>
+            <Nav.Link href="resources">Resources</Nav.Link>
+            <Nav.Link href="adformats">Ad Formats</Nav.Link>
 
-        <li
-          className={`nav-item ${activeNavItem === "login" ? "active" : ""}`}
-          onClick={() => handleNavItemClick("login")}
-        >
-          Log in
-        </li>
-        <li
-          className={`nav-item ${activeNavItem === "signup" ? "active" : ""}`}
-          onClick={() => handleNavItemClick("signup")}
-        >
-          Sign up
-        </li>
-      </ul>
-    </nav>
+            <Button
+              style={{
+                borderRadius: "100px",
+                background: "white",
+                border: "1px solid black",
+                width: "130px",
+              }}
+            >
+              <FontAwesomeIcon icon={faHeadphones} />{" "}
+              <Nav.Link href="contact">Contact</Nav.Link>{" "}
+            </Button>
+            <Nav.Link href="contact">Log in</Nav.Link>
+            <Button
+              style={{
+                borderRadius: "100px",
+                width: "130px",
+              }}
+            >
+              <Nav.Link href="contact">Sign Up</Nav.Link>{" "}
+            </Button>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
-};
+}
 
-export default Navbar;
+export default Navigationbar;

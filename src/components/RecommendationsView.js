@@ -1,6 +1,7 @@
 import React from "react";
+import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../stylesheets/RecommendationsView.css";
-import { RiLoginCircleLine } from "react-icons/ri";
 
 function RecommendationsView() {
   return (
@@ -15,7 +16,7 @@ function RecommendationsView() {
               </h2>
             </b>
             <br />
-            
+
             <p className="text2">
               We've perfected the art of native advertising, empowering
               publishers and <br /> advertisers to grow their brand presence and
@@ -39,7 +40,7 @@ function RecommendationsView() {
               Learn more
               <span>
                 {" "}
-                <RiLoginCircleLine className="icon" size={30} />{" "}
+                <FontAwesomeIcon icon={faCircleArrowRight} />
               </span>
             </p>
           </div>

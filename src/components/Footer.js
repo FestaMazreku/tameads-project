@@ -1,4 +1,6 @@
 import React from "react";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 import "../stylesheets/Footer.css";
 
 const Footer = () => {
@@ -13,65 +15,157 @@ const Footer = () => {
           </p>
         </div>
         <div className="footer-column">
-          <h2>Quick Links</h2>
+          <h2> TameAds </h2>
           <ul>
             <li>
-              <p> Home </p>
+              <p> Advertisers </p>
             </li>
             <li>
-              <a href="#">About</a>
+              <p> Publishers </p>
             </li>
             <li>
-              <a href="#">Services</a>
+              <p> Ad Formats </p>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <p> Agencies </p>
+            </li>
+            <li>
+              <p> Download </p>
+            </li>
+            <li>
+              <p> Affiliate </p>
             </li>
           </ul>
         </div>
         <div className="footer-column">
-          <h2>Services</h2>
+          <h2> Advertisers </h2>
           <ul>
             <li>
-              <a href="#">Service 1</a>
+              <p> Advertise With Us </p>
             </li>
             <li>
-              <a href="#">Service 2</a>
+              <p> How To Buy TameAds </p>
             </li>
             <li>
-              <a href="#">Service 3</a>
+              <p> Smartads Gallery </p>
             </li>
             <li>
-              <a href="#">Service 4</a>
+              <p> Advertiser Guidelines </p>
+            </li>
+            <li>
+              <p> Advertising FAQ </p>
+            </li>
+            <li>
+              <p> Onboarding Kit </p>
             </li>
           </ul>
         </div>
         <div className="footer-column">
-          <h2>Follow Us</h2>
+          <h2> Publishers </h2>
           <ul>
             <li>
-              <a href="#">Facebook</a>
+              <p> Publisher Overview </p>
             </li>
             <li>
-              <a href="#">Twitter</a>
+              <p> Discover Smartlogic </p>
             </li>
             <li>
-              <a href="#">Instagram</a>
+              <p> New Media </p>
             </li>
             <li>
-              <a href="#">LinkedIn</a>
+              <p> Publishers Guidelines </p>
+            </li>
+            <li>
+              <p> Publishers FAQ </p>
+            </li>
+            <li>
+              <p> Request a Demo </p>
             </li>
           </ul>
         </div>
         <div className="footer-column">
-          <h2>Contact Us</h2>
-          <p>Email: example@example.com</p>
-          <p>Phone: 123-456-7890</p>
+          <h2> Company </h2>
+          <ul>
+            <li>
+              <p> About Us </p>
+            </li>
+            <li>
+              <p> Jobs </p>
+            </li>
+            <li>
+              <p> Offices </p>
+            </li>
+            <li>
+              <p> Blog </p>
+            </li>
+            <li>
+              <p> News </p>
+            </li>
+            <li>
+              <p> Team </p>
+            </li>
+          </ul>
         </div>
+        <div className="footer-column">
+          <h2> Resources </h2>
+          <ul>
+            <li>
+              <p> Help center </p>
+            </li>
+            <li>
+              <p> Education center </p>
+            </li>
+            <li>
+              <p> Case Studies </p>
+            </li>
+            <li>
+              <p> FAQs </p>
+            </li>
+            <li>
+              <p> Investors </p>
+            </li>
+            <li>
+              <p> Contact </p>
+            </li>
+          </ul>
+        </div>
+        <div className="footer-column">
+          <h2> Legal </h2>
+          <ul>
+            <li>
+              <p> Trust & Transparency </p>
+            </li>
+            <li>
+              <p> Developers </p>
+            </li>
+            <li>
+              <p> Fraud Protection </p>
+            </li>
+            <li>
+              <p> Imprint </p>
+            </li>
+            <li>
+              <p> Report Abuse </p>
+            </li>
+            <li>
+              <p> GDPR </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>Subsribe newsletter </p>
+        <Form.Control type="text" placeholder="Enter your Email" />
+        <Button> Subsribe </Button>
       </div>
       <div className="footer-bottom">
         <p>&copy; 2024 Your Company. All rights reserved.</p>
       </div>
+      <img
+        src="images/socialmedia.png"
+        alt="CrossScreen"
+        className="responsive-image"
+      />
     </footer>
   );
 };
