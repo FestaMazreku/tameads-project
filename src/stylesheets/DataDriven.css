@@ -1,43 +1,18 @@
-.data {
+.carousel-item {
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between; 
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: center;
 }
 
-.card {
-  margin: 15px;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  border: 1px solid lightgray;
-  width: calc(25% - 30px); 
-  max-width: 300px; 
-  box-sizing: border-box; 
+.custom-card {
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+  height: 200%;
 }
 
-.card2 {
-  border-radius: 8px;
-  height: auto;
-  margin: 5px;
-  padding: 9px;
-  width: 100%;
-  background-color: #ffffff;
-  max-width: 300px; 
-  box-sizing: border-box; 
+.custom-card:hover {
+  transform: translateY(-5px);
 }
 
-.card2 img {
-  width: 100%;
-}
-
-.image {
-  width: 17%;
-  padding: 9px;
-}
-
-@media (max-width: 768px) {
-  .card {
-    width: calc(50% - 30px); 
-  }
+.custom-card .card-body {
+  height: 100%; 
 }
