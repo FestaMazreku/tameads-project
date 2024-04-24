@@ -1,56 +1,58 @@
 import React from "react";
 import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Container, Row, Col } from "react-bootstrap";
 import "../stylesheets/RecommendationsView.css";
 
 function RecommendationsView() {
   return (
-    <div className="view">
-      <div className="container">
-        <div className="content">
-          <div className="text-container">
-            <b>
-              <h2>
-                TameAds is the technology company <br /> powering the discovery
-                feeds on your <br /> favorite media.{" "}
-              </h2>
-            </b>
-            <br />
+    <Container>
+      <Row className="content">
+        <Col md={6} xs={6} className="text-container">
+          <b>
+            <h2>
+              TameAds is the technology company
+              <br /> powering the discovery feeds on your favorite media.
+            </h2>
+          </b>
+          <br />
 
-            <p className="text2">
-              We've perfected the art of native advertising, empowering
-              publishers and <br /> advertisers to grow their brand presence and
-              revenues.
-            </p>
-            <br />
+          <p className="text2">
+            We've perfected the art of native advertising, empowering publishers
+            and advertisers to grow their brand presence and revenues.
+          </p>
+          <br />
 
-            <div className="align">
-              <div className="number-container">
-                <p className="number">344B</p>
+          <Row className="align">
+            <Col md={4} xs={4} className="number-container">
+              <div className="number">
+                <p className="num-text highlighted">344B</p>
                 <p className="text3">Monthly Recommendations</p>
               </div>
-
-              <div className="number-container">
-                <p className="number">55+</p>
+            </Col>
+            <Col md={6} xs={6} className="number-container">
+              <div className="number">
+                <p className="num-text highlighted">55+</p>
                 <p className="text3">Countries in the Network</p>
               </div>
-            </div>
+            </Col>
+          </Row>
 
-            <p className="learnmore">
-              Learn more
-              <span>
-                {" "}
-                <FontAwesomeIcon icon={faCircleArrowRight} />
-              </span>
-            </p>
-          </div>
+          <br />
+          <p className="learnmore">
+            Learn more
+            <span>
+              {" "}
+              <FontAwesomeIcon icon={faCircleArrowRight} />
+            </span>
+          </p>
+        </Col>
 
-          <div className="image-container">
-            <img src="images/phone.png" alt="Phone" className="image2" />
-          </div>
-        </div>
-      </div>
-    </div>
+        <Col md={4} xs={4}>
+          <img src="images/phone.png" alt="Phone" className="image2" />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
