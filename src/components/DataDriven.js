@@ -26,19 +26,41 @@ function Data() {
             </b>
             <Card.Text>
               Teads offers the most advanced Cookieless targeting in the
-              industry allowing you to have 60% more reach as compared to
+              industry, allowing you to have 60% more reach compared to
+              traditional targeting.
             </Card.Text>
           </Card.Body>
         </Card>
       </div>
+
       <div>
         <Card
           className="custom-card"
-          style={{ backgroundImage: "url('images/CrossScreen.png')" }}
+          style={{
+            backgroundImage: "url(images/CrossScreen.png)",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
         >
-          <Card.Body> </Card.Body>
+          <Card.Body>
+            <b>
+              <Card.Title></Card.Title>
+            </b>
+            <Card.Text style={{ height: "100 %" }}>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </Card.Text>
+          </Card.Body>
         </Card>
       </div>
+
       <div>
         <Card className="custom-card">
           <Card.Body>
@@ -52,8 +74,10 @@ function Data() {
               consumed.
             </Card.Text>
           </Card.Body>
+          <br />
         </Card>
       </div>
+
       <div>
         <Card className="custom-card">
           <Card.Body>
@@ -63,7 +87,7 @@ function Data() {
               <Card.Title>Commerce</Card.Title>
             </b>
             <Card.Text>
-              We provide purchase data from top retail ers allowing for
+              We provide purchase data from top retailers, allowing for
               targeting and online and offline measurement solutions.
             </Card.Text>
           </Card.Body>

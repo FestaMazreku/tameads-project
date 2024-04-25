@@ -24,17 +24,29 @@ function Solutions() {
 
           <Col md={6}>
             <Tabs
-              defaultActiveKey="home"
+              defaultActiveKey="Avareness"
               id="uncontrolled-tab-example"
               className="mb-3"
             >
-              <Tab eventKey="home" title="Home">
-                <p>Tab content for Home</p>
+              <Tab eventKey="Avareness" title="Avareness">
+                <h4>
+                  Designed to drive high quality <br /> attention
+                </h4>
+                
+                <p>
+                  TameAds delivers ad ed experiences that are built for
+                  attention which as at the root brand lift and awereness. We
+                  can drive up to 40% greater lift in ad recall in our optimized
+                  units versus the original creative.{" "}
+                </p>
               </Tab>
-              <Tab eventKey="profile" title="Profile">
+              <Tab eventKey="Consideration" title="Consideration">
                 <p>Tab content for Profile</p>
               </Tab>
-              <Tab eventKey="contact" title="Contact" disabled>
+              <Tab eventKey="Traffic" title="Traffic">
+                <p>Tab content for Contact</p>
+              </Tab>
+              <Tab eventKey="Conversions" title="Conversions">
                 <p>Tab content for Contact</p>
               </Tab>
             </Tabs>
@@ -46,7 +58,7 @@ function Solutions() {
 
       <Container fluid className="view">
         <Row className="content">
-          <Col md={6} className="text-container">
+          <Col md={4} className="text-container">
             <b>
               <h2>Effortlessly repurpose social assets</h2>
             </b>
@@ -63,24 +75,24 @@ function Solutions() {
               </span>
             </p>
           </Col>
-
-          <Col className="image-container">
+          <Col md={6} className="image-container">
             <img src="images/apple.png" alt="Apple" className="apple" />
           </Col>
         </Row>
       </Container>
 
+      <br />
+
       <Container fluid className="view">
         <Row className="content">
-          <Col md={6} className="image-container">
+          <Col md={4} className="image-container">
             <img
               src="images/audience.png"
               alt="audience"
               className="audience"
             />
           </Col>
-
-          <Col md={6} className="text-container">
+          <Col md={4} className="text-container">
             <b>
               <h2>Deep audience insights</h2>
             </b>
@@ -100,6 +112,8 @@ function Solutions() {
           </Col>
         </Row>
       </Container>
+
+      <br />
     </>
   );
 }

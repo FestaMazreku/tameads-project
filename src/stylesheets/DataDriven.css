@@ -16,3 +16,7 @@
 .custom-card .card-body {
   height: 100%; 
 }
+
+.cross-screen {
+  height: 80%;
+}

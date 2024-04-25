@@ -24,17 +24,49 @@ function RecommendationsView() {
           <br />
 
           <Row className="align">
-            <Col md={4} xs={4} className="number-container">
-              <div className="number">
-                <p className="num-text highlighted">344B</p>
-                <p className="text3">Monthly Recommendations</p>
-              </div>
+            <Col md={6} xs={6} className="num-text highlighted">
+              <p
+                style={{
+                  color: "rgb(32, 47, 255)",
+                  fontSize: "25px",
+                  fontWeight: "bold",
+                }}
+              >
+                344B{" "}
+              </p>
+              <br />
+              <p
+                style={{
+                  color: "darkgray",
+                  fontSize: "18px",
+                  fontWeight: "bold",
+                }}
+              >
+                {" "}
+                Monthly Recommendations
+              </p>
             </Col>
-            <Col md={6} xs={6} className="number-container">
-              <div className="number">
-                <p className="num-text highlighted">55+</p>
-                <p className="text3">Countries in the Network</p>
-              </div>
+            <Col md={6} xs={6} className="num-text highlighted">
+              <p
+                style={{
+                  color: "rgb(32, 47, 255)",
+                  fontSize: "25px",
+                  fontWeight: "bold",
+                }}
+              >
+                55+{" "}
+              </p>
+              <br />
+              <p
+                style={{
+                  color: "darkgray",
+                  fontSize: "18px",
+                  fontWeight: "bold",
+                }}
+              >
+                {" "}
+                Countries in the Network
+              </p>
             </Col>
           </Row>
 

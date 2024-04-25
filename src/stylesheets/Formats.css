@@ -1,6 +1,6 @@
 .viewall {
     color: blue;
-    text-align: right;
+    justify-content: flex-end;
 }
 
 .icon {
