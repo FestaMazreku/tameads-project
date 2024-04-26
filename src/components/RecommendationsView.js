@@ -24,7 +24,7 @@ function RecommendationsView() {
           <br />
 
           <Row className="align">
-            <Col md={6} xs={6} className="num-text highlighted">
+            <Col lg={6} md={6} xs={12} className="num-text highlighted">
               <p
                 style={{
                   color: "rgb(32, 47, 255)",
@@ -37,8 +37,8 @@ function RecommendationsView() {
               <br />
               <p
                 style={{
-                  color: "darkgray",
-                  fontSize: "18px",
+                  color: "#26282A",
+                  fontSize: "16px",
                   fontWeight: "bold",
                 }}
               >
@@ -46,7 +46,7 @@ function RecommendationsView() {
                 Monthly Recommendations
               </p>
             </Col>
-            <Col md={6} xs={6} className="num-text highlighted">
+            <Col lg={5} md={6} xs={12} className="num-text highlighted">
               <p
                 style={{
                   color: "rgb(32, 47, 255)",
@@ -59,8 +59,8 @@ function RecommendationsView() {
               <br />
               <p
                 style={{
-                  color: "darkgray",
-                  fontSize: "18px",
+                  color: "#26282A",
+                  fontSize: "16px",
                   fontWeight: "bold",
                 }}
               >

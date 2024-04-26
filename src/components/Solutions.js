@@ -9,11 +9,11 @@ function Solutions() {
   return (
     <>
       <Container fluid className="text-center">
-        <h2>
+        <h3>
           Delivering solutions
           <br />
           across the marketing funnel
-        </h2>
+        </h3>
       </Container>
 
       <Container fluid className="laptop-container text-center">
@@ -32,7 +32,6 @@ function Solutions() {
                 <h4>
                   Designed to drive high quality <br /> attention
                 </h4>
-                
                 <p>
                   TameAds delivers ad ed experiences that are built for
                   attention which as at the root brand lift and awereness. We
@@ -53,7 +52,6 @@ function Solutions() {
           </Col>
         </Row>
       </Container>
-
       <br />
 
       <Container fluid className="view">
@@ -80,7 +78,6 @@ function Solutions() {
           </Col>
         </Row>
       </Container>
-
       <br />
 
       <Container fluid className="view">
@@ -112,8 +109,6 @@ function Solutions() {
           </Col>
         </Row>
       </Container>
-
-      <br />
     </>
   );
 }
