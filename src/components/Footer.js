@@ -14,158 +14,175 @@ const Footer = () => {
             urna eget nunc varius lacinia.
           </p>
         </div>
+
         <div className="footer-column">
-          <h2> TameAds </h2>
+          <h2>TameAds</h2>
           <ul>
             <li>
-              <p> Advertisers </p>
+              <p>Advertisers</p>
             </li>
             <li>
-              <p> Publishers </p>
+              <p>Publishers</p>
             </li>
             <li>
-              <p> Ad Formats </p>
+              <p>Ad Formats</p>
             </li>
             <li>
-              <p> Agencies </p>
+              <p>Agencies</p>
             </li>
             <li>
-              <p> Download </p>
+              <p>Download</p>
             </li>
             <li>
-              <p> Affiliate </p>
+              <p>Affiliate</p>
             </li>
           </ul>
         </div>
+
         <div className="footer-column">
-          <h2> Advertisers </h2>
+          <h2>Advertisers</h2>
           <ul>
             <li>
-              <p> Advertise With Us </p>
+              <p>Advertise With Us</p>
             </li>
             <li>
-              <p> How To Buy TameAds </p>
+              <p>How To Buy TameAds</p>
             </li>
             <li>
-              <p> Smartads Gallery </p>
+              <p>Smartads Gallery</p>
             </li>
             <li>
-              <p> Advertiser Guidelines </p>
+              <p>Advertiser Guidelines</p>
             </li>
             <li>
-              <p> Advertising FAQ </p>
+              <p>Advertising FAQ</p>
             </li>
             <li>
-              <p> Onboarding Kit </p>
+              <p>Onboarding Kit</p>
             </li>
           </ul>
         </div>
+
         <div className="footer-column">
-          <h2> Publishers </h2>
+          <h2>Publishers</h2>
           <ul>
             <li>
-              <p> Publisher Overview </p>
+              <p>Publisher Overview</p>
             </li>
             <li>
-              <p> Discover Smartlogic </p>
+              <p>Discover Smartlogic</p>
             </li>
             <li>
-              <p> New Media </p>
+              <p>New Media</p>
             </li>
             <li>
-              <p> Publishers Guidelines </p>
+              <p>Publishers Guidelines</p>
             </li>
             <li>
-              <p> Publishers FAQ </p>
+              <p>Publishers FAQ</p>
             </li>
             <li>
-              <p> Request a Demo </p>
+              <p>Request a Demo</p>
             </li>
           </ul>
         </div>
+
         <div className="footer-column">
-          <h2> Company </h2>
+          <h2>Company</h2>
           <ul>
             <li>
-              <p> About Us </p>
+              <p>About Us</p>
             </li>
             <li>
-              <p> Jobs </p>
+              <p>Jobs</p>
             </li>
             <li>
-              <p> Offices </p>
+              <p>Offices</p>
             </li>
             <li>
-              <p> Blog </p>
+              <p>Blog</p>
             </li>
             <li>
-              <p> News </p>
+              <p>News</p>
             </li>
             <li>
-              <p> Team </p>
+              <p>Team</p>
             </li>
           </ul>
         </div>
+
         <div className="footer-column">
-          <h2> Resources </h2>
+          <h2>Resources</h2>
           <ul>
             <li>
-              <p> Help center </p>
+              <p>Help Center</p>
             </li>
             <li>
-              <p> Education center </p>
+              <p>Education Center</p>
             </li>
             <li>
-              <p> Case Studies </p>
+              <p>Case Studies</p>
             </li>
             <li>
-              <p> FAQs </p>
+              <p>FAQs</p>
             </li>
             <li>
-              <p> Investors </p>
+              <p>Investors</p>
             </li>
             <li>
-              <p> Contact </p>
+              <p>Contact</p>
             </li>
           </ul>
         </div>
+
         <div className="footer-column">
-          <h2> Legal </h2>
+          <h2>Legal</h2>
           <ul>
             <li>
-              <p> Trust & Transparency </p>
+              <p>Trust & Transparency</p>
             </li>
             <li>
-              <p> Developers </p>
+              <p>Developers</p>
             </li>
             <li>
-              <p> Fraud Protection </p>
+              <p>Fraud Protection</p>
             </li>
             <li>
-              <p> Imprint </p>
+              <p>Imprint</p>
             </li>
             <li>
-              <p> Report Abuse </p>
+              <p>Report Abuse</p>
             </li>
             <li>
-              <p> GDPR </p>
+              <p>GDPR</p>
             </li>
           </ul>
         </div>
       </div>
+
       <div className="footer-bottom">
-        <p>Subsribe newsletter </p>
-        <Form.Control type="text" placeholder="Enter your Email" />
-        <Button> Subsribe </Button>
+        <p>Subscribe to our newsletter</p>
+        <div className="subscribe-container">
+          <Form.Control
+            type="text"
+            placeholder="Enter your Email"
+            className="subscribe-input"
+          />
+          <Button className="subscribe-button">Subscribe</Button>
+        </div>
       </div>
+
       <div className="footer-bottom">
         <p>&copy; 2024 Your Company. All rights reserved.</p>
       </div>
-      <img
-        src="images/socialmedia.png"
-        alt="CrossScreen"
-        className="responsive-image"
-      />
+
+      <div className="footer-social">
+        <img
+          src="/images/socialmedia.png"
+          alt="Social Media"
+          className="responsive-image"
+        />
+      </div>
     </footer>
   );
 };
