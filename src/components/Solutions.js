@@ -30,23 +30,24 @@ function Solutions() {
             >
               <Tab eventKey="Avareness" title="Avareness">
                 <h4>
-                  Designed to drive high quality <br /> attention
+                  Designed to drive high-quality <br /> attention
                 </h4>
+                <br />
                 <p>
-                  TameAds delivers ad ed experiences that are built for
-                  attention which as at the root brand lift and awereness. We
-                  can drive up to 40% greater lift in ad recall in our optimized
-                  units versus the original creative.{" "}
+                  TameAds delivers ad experiences that are built for attention
+                  which is at the root of brand lift and awareness. We can drive
+                  up to 40% greater lift in ad recall in our optimized units
+                  versus the original creative.
                 </p>
               </Tab>
               <Tab eventKey="Consideration" title="Consideration">
-                <p>Tab content for Profile</p>
+                <p>Tab content for Consideration</p>
               </Tab>
               <Tab eventKey="Traffic" title="Traffic">
-                <p>Tab content for Contact</p>
+                <p>Tab content for Traffic</p>
               </Tab>
               <Tab eventKey="Conversions" title="Conversions">
-                <p>Tab content for Contact</p>
+                <p>Tab content for Conversions</p>
               </Tab>
             </Tabs>
           </Col>
@@ -56,7 +57,7 @@ function Solutions() {
 
       <Container fluid className="view">
         <Row className="content">
-          <Col md={4} className="text-container">
+          <Col md={4} lg={4} xs={8} className="text-container">
             <b>
               <h2>Effortlessly repurpose social assets</h2>
             </b>
@@ -79,20 +80,22 @@ function Solutions() {
         </Row>
       </Container>
       <br />
+      <br />
 
       <Container fluid className="view">
-        <Row className="content">
-          <Col md={4} className="image-container">
+        <Row className="content justify-content-center">
+          <Col lg={4} md={4} className="text-center">
             <img
               src="images/audience.png"
               alt="audience"
-              className="audience"
+              className="audience-image"
             />
           </Col>
-          <Col md={4} className="text-container">
+          <Col lg={4} md={4} xs={8} className="text-container">
             <b>
               <h2>Deep audience insights</h2>
             </b>
+            <br />
             <p className="text2">
               Our platform offers deep insights that enable advertisers to
               understand what their audiences are interested in, where they
@@ -109,6 +112,7 @@ function Solutions() {
           </Col>
         </Row>
       </Container>
+      <br />
     </>
   );
 }

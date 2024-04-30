@@ -7,6 +7,7 @@ import "../stylesheets/RecommendationsView.css";
 function RecommendationsView() {
   return (
     <Container>
+      <br />
       <Row className="content">
         <Col md={6} xs={6} className="text-container">
           <b>

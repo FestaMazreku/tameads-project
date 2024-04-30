@@ -15,27 +15,44 @@
   padding: 0 20px;
 }
 
-.footer-column h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-}
-
-.footer-column ul li {
-  margin-bottom: 10px;
-}
-
-.footer-column ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
 .footer-bottom {
   text-align: center;
   padding-top: 20px;
   border-top: 1px solid #555;
+}
+
+.footer-copy { 
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #555;
+  text-align: left;
+  color: gray;
+}
+
+.newsletter-heading {
+  text-align: left; 
+  width: 50%; 
+}
+
+.footer-social {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.subscribe-container {
+  display: flex;
+  width: 50%; 
+}
+
+.subscribe-input {
+  margin-right: 10px;
+}
+
+.subscribe-button {
+  width: auto;
+  border-radius: 50%;
+}
+
+.image {
+  width: 12%;
 }

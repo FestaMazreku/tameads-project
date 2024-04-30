@@ -18,7 +18,10 @@ function Home() {
       <br />
       <br />
       <br />
+      <br />
       <p className="title"> Data Driven Reach </p>
+      <br />
+      <br />
       <Data />
       <br />
       <br />
