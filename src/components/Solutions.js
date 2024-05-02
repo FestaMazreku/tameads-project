@@ -1,9 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Carousel } from "react-bootstrap";
 import { RiLoginCircleLine } from "react-icons/ri";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import "../stylesheets/Solutions.css";
 
 function Solutions() {
   return (
@@ -24,21 +23,35 @@ function Solutions() {
 
           <Col md={6}>
             <Tabs
-              defaultActiveKey="Avareness"
+              defaultActiveKey="Awareness"
               id="uncontrolled-tab-example"
               className="mb-3"
             >
-              <Tab eventKey="Avareness" title="Avareness">
-                <h4>
-                  Designed to drive high-quality <br /> attention
-                </h4>
-                <br />
-                <p>
-                  TameAds delivers ad experiences that are built for attention
-                  which is at the root of brand lift and awareness. We can drive
-                  up to 40% greater lift in ad recall in our optimized units
-                  versus the original creative.
-                </p>
+              <Tab eventKey="Awareness" title="Awareness">
+                <Carousel indicators={true}>
+                  <Carousel.Item>
+                    <h4>
+                      Designed to drive high-quality <br /> attention
+                    </h4>
+                    <br />
+                    <p>
+                      TameAds delivers ad experiences that are built for
+                      attention which is at the root of brand lift and
+                      awareness. We can drive up to 40% greater lift in ad
+                      recall in our optimized units versus the original creative.
+                    </p>
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <h4>
+                      Another slide title <br /> if needed
+                    </h4>
+                    <br />
+                    <p>
+                      Additional content for the second slide can go here.
+                    </p>
+                  </Carousel.Item>
+                  {/* Add more Carousel.Items for additional slides */}
+                </Carousel>
               </Tab>
               <Tab eventKey="Consideration" title="Consideration">
                 <p>Tab content for Consideration</p>
