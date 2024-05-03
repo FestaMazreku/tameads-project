@@ -38,21 +38,27 @@ function Solutions() {
                       TameAds delivers ad experiences that are built for
                       attention which is at the root of brand lift and
                       awareness. We can drive up to 40% greater lift in ad
-                      recall in our optimized units versus the original creative.
+                      recall in our optimized units versus the original
+                      creative.
                     </p>
                   </Carousel.Item>
+
                   <Carousel.Item>
                     <h4>
-                      Another slide title <br /> if needed
+                      Designed to drive high-quality <br /> attention
                     </h4>
                     <br />
                     <p>
-                      Additional content for the second slide can go here.
+                      Sometimes it's critical to get campaigns live in minutes,
+                      that's why we have developed the ability to repurpose your
+                      assets for social platforms in just a few clicks. See how
+                      the same assets can garner 4-6x better performance than
+                      they do in a newsfeed.
                     </p>
                   </Carousel.Item>
-                  {/* Add more Carousel.Items for additional slides */}
                 </Carousel>
               </Tab>
+
               <Tab eventKey="Consideration" title="Consideration">
                 <p>Tab content for Consideration</p>
               </Tab>

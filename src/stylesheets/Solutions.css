@@ -3,7 +3,7 @@
   }
   
   .carousel-indicators li {
-    background-color: blue; /* Change indicator color */
+    background-color: blue; 
     border: none;
     width: 10px;
     height: 10px;
@@ -12,12 +12,11 @@
   }
   
   .carousel-indicators .active {
-    background-color: white; /* Change active indicator color */
+    background-color: blue; 
   }
-  
-  /* Custom styles for the next arrow */
+
   .carousel-control-next {
-    background-color: blue; /* Change background color */
+    background-color: blue; 
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -29,9 +28,8 @@
     border-width: 0;
   }
   
-  /* Custom styles for the arrow icon */
   .carousel-control-next-icon:after {
-    content: '>'; /* Set content to '>' */
+    content: '>'; 
     font-size: 20px;
-    color: white; /* Change arrow color */
+    color: blue; 
   }
