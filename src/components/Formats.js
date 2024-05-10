@@ -1,8 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Carousel } from "react-bootstrap";
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
-import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faCircleArrowRight, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../stylesheets/Formats.css";
 
@@ -11,6 +11,7 @@ function Formats() {
     <>
       <Container fluid className="text-center">
         <h3>TameAds Formats</h3>
+        <br />
         <p>
           Both publishers and brands will be happy to know that we cater to
           different formats. We created a variety of formats that can be <br />
@@ -21,24 +22,61 @@ function Formats() {
       <Container fluid className="mb-4">
         <Row>
           <Col md={12}>
-            <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
+            <Tabs defaultActiveKey="bannerads" id="uncontrolled-tab-example">
               <Tab eventKey="bannerads" title="Banner Ads">
-                <p>Tab content for Home</p>
+                <p>Tab content for Banner Ads</p>
               </Tab>
               <Tab eventKey="nativeads" title="Native Ads">
-                <p>Tab content for Profile</p>
+                <Carousel indicators={false} controls={false}>
+                  <Carousel.Item>
+                    <Row>
+                      <Col>
+                        <img
+                          className="d-block w-40"
+                          src="images/newsweek.png"
+                          alt="First slide"
+                        />
+                      </Col>
+                      <Col>
+                        <img
+                          className="d-block w-10"
+                          src="images/newsweekphone.png"
+                          alt="Second slide"
+                        />
+                        <br />
+                        <center>
+                          <h4> Native Ads </h4>
+                          <p>
+                            {" "}
+                            Native advertising is a type advertising that <br />{" "}
+                            matches the form and the platform <br /> upon which
+                            it appears.
+                          </p>
+                          <p style={{color: "blue"}}> Learn more <FontAwesomeIcon icon={faArrowRight} /></p>
+                        </center>
+                      </Col>
+                      <Col>
+                        <img
+                          className="d-block w-40"
+                          src="images/newsweekvideo.png"
+                          alt="Third slide"
+                        />
+                      </Col>
+                    </Row>
+                  </Carousel.Item>
+                </Carousel>
               </Tab>
               <Tab eventKey="notifications" title="Push Notifications">
-                <p>Tab content for Contact</p>
+                <p>Tab content for Push Notifications</p>
               </Tab>
               <Tab eventKey="native" title="Native Interstitials">
-                <p>Tab content for Contact</p>
+                <p>Tab content for Native Interstitials</p>
               </Tab>
               <Tab eventKey="video" title="Video Pre-Roll">
-                <p>Tab content for Contact</p>
+                <p>Tab content for Video Pre-Roll</p>
               </Tab>
               <Tab eventKey="popunder" title="Popunder">
-                <p>Tab content for Contact</p>
+                <p>Tab content for Popunder</p>
               </Tab>
             </Tabs>
           </Col>
@@ -62,7 +100,7 @@ function Formats() {
               Stay ahead of industry trends with our ad tech blog. Read our
               native advertising tips & tricks.
             </p>
-            <p className="viewall" style={{ JustifyContent: "flex-end" }}>
+            <p className="viewall" style={{ justifyContent: "flex-end" }}>
               View all &nbsp;
               <span>
                 <FontAwesomeIcon icon={faCircleArrowRight} />
