@@ -122,7 +122,7 @@ function Solutions() {
               insights are based on cookieless signals that can be activated in
               the privacy-first era.
             </p>
-            <p className="learnmore2">
+            <p className="learnmore">
               Learn more
               <span>
                 <RiLoginCircleLine className="icon" size={35} />

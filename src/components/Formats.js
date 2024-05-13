@@ -27,6 +27,7 @@ function Formats() {
                 <p>Tab content for Banner Ads</p>
               </Tab>
               <Tab eventKey="nativeads" title="Native Ads">
+                <br />
                 <Carousel indicators={false} controls={false}>
                   <Carousel.Item>
                     <Row>
@@ -43,6 +44,7 @@ function Formats() {
                           src="images/newsweekphone.png"
                           alt="Second slide"
                         />
+                        <br />
                         <br />
                         <center>
                           <h4> Native Ads </h4>
