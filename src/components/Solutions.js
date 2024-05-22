@@ -18,7 +18,7 @@ function Solutions() {
       <Container fluid className="laptop-container text-center">
         <Row className="align-items-center">
           <Col md={6} className="text-center">
-            <img src="images/laptop.png" alt="laptop" className="laptop" />
+            {/* <img src="images/laptop.png" alt="laptop" className="laptop" /> */}
           </Col>
 
           <Col md={6}>

@@ -1,6 +1,18 @@
-nav {
-  display: flex;
-  align-items: center;
+.navbar {
+  transition: top 0.3s;
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.navbar-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.navbar-scrolled {
+  background-color: white; /* Change this to the desired background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow when scrolled */
 }
 
 .logo {

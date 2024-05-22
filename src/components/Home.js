@@ -10,7 +10,10 @@ import "../stylesheets/Home.css";
 
 function Home() {
   return (
+  
     <div className="Home">
+      <br />
+      <br />
       <Navigationbar />
       <img src="images/Dashboard2x.png" alt="Dashboard" className="dashboard" />
       <br />

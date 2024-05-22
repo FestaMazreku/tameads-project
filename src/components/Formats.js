@@ -85,11 +85,11 @@ function Formats() {
         </Row>
       </Container>
 
-      <img
+      {/* <img
         src="images/Earth.png"
         alt="CrossScreen"
         className="responsive-image"
-      />
+      /> */}
 
       <br />
       <br />
