@@ -24,12 +24,15 @@ function Navigationbar() {
       expand="lg"
       className={`navbar ${isTop ? "navbar-top" : "navbar-scrolled"}`}
       fixed="top"
+      collapseOnSelect
     >
       <Container fluid>
-        <img src="/images/TameAds.png" alt="TameAdsLogo" className="logo" />
+        <Navbar.Brand href="/">
+          <img src="/images/TameAds.png" alt="TameAdsLogo" className="logo" />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="links">
+          <Nav className="ml-auto">
             <Nav.Link href="advertisers">Advertisers</Nav.Link>
             <Nav.Link href="mediaowners">Media Owners</Nav.Link>
             <Nav.Link href="aboutus">About Us</Nav.Link>
@@ -37,9 +40,9 @@ function Navigationbar() {
             <Nav.Link href="adformats">Ad Formats</Nav.Link>
             <Button variant="outline-secondary">
               <FontAwesomeIcon icon={faHeadphones} /> Contact
-            </Button>{" "}
+            </Button>
             <Nav.Link href="login">Log in</Nav.Link>
-            <Button variant="primary">Sign Up</Button>{" "}
+            <Button variant="primary">Sign Up</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
