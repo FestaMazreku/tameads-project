@@ -9,7 +9,7 @@ function RecommendationsView() {
     <Container>
       <br />
       <Row className="content">
-        <Col md={6} xs={6} className="text-container">
+        <Col md={6} xs={12} className="text-container">
           <b>
             <h2>
               TameAds is the technology company
@@ -81,7 +81,7 @@ function RecommendationsView() {
           </p>
         </Col>
 
-        <Col md={4} xs={4}>
+        <Col md={6} xs={12} className="d-flex justify-content-center align-items-center text-center"> 
           <img src="images/phone.png" alt="Phone" className="image2" />
         </Col>
       </Row>
